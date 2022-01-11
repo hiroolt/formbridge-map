@@ -15,6 +15,13 @@ https://unpkg.com/leaflet@1.7.1/dist/leaflet.js
 kintoneのアプリ 管理画面から、以下のCSSを追加  
 https://unpkg.com/leaflet@1.7.1/dist/leaflet.css
 
+# Usage
+
+kintoneアプリ及びフォームブリッジ の設定として、以下のフィールドとフィールドコードを最低限設定。
+* 緯度のフィールド：フィールドコード「Lat」
+* 経度のフィールド：フィールドコード「Lng」
+* その位置でどんなイベントが起きたか（イベント名）のフィールド：「Event」
+
 # Note
 
 フォームの作り方によって、思ってもいない位置に地図が表示される場合があります。
